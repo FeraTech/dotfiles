@@ -10,7 +10,7 @@ PS1="\[$(tput bold)\]\[\033[38;5;4m\][\u@\h\[$(tput sgr0)\] \[$(tput bold)\]\W\[
 export PF_INFO="ascii title os host kernel uptime pkgs memory palette"
 
 # Aliases
-alias config='/usr/bin/git --git-dir=/home/frank/.cfg/ --work-tree=/home/frank'
+alias cz='chezmoi'
 alias nv='nvim'
 alias nf='neofetch'
 alias pf='pfetch'
