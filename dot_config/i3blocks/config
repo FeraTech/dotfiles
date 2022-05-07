@@ -1,0 +1,73 @@
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+# Change $SCRIPT_DIR to the location of your scripts!
+command=~/.config/i3blocks/$BLOCK_NAME
+separator_block_width=15
+separator=true
+markup=pango
+#border_top=0
+#border_bottom=2
+#border_left=0
+#border_right=0
+
+[rofi-calendar]
+command=~/.config/i3blocks/rofi-calendar/rofi-calendar
+interval=3600
+BAR_POSITION=top
+#WEEK_START=monday
+#DATEFTM=+%a %d %b %Y
+#SHORTFMT=+%d/%m/%Y
+LABEL=📅 
+#FONT=Monospace 10
+#LEFTCLICK_PREV_MONTH=true
+PREV_MONTH_TEXT=« Mes anterior «
+NEXT_MONTH_TEXT=» Mes siguiente »
+#ROFI_CONFIG_FILE=/dev/null
+#border=#bf616a
+color=#bf616a
+
+# Date Time
+[time]
+label=🕒 
+command=date '+%H:%M:%S'
+interval=1
+#border=#81a1c1
+color=#81a1c1
+
+# Volume indicator
+# The first parameter sets the step (and units to display)
+# The second parameter overrides the mixer selection
+# See the script for details.
+#[volume]
+#command=~/.config/i3blocks/volume/volume
+#label=♪ Vol: 
+#label=VOL
+#interval=once
+#signal=10
+#STEP=5%
+#border=#5e81ac
+#color=#5e81ac

@@ -1,0 +1,28 @@
+# Colors (Google Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+  # Normal colors
+  normal:
+    black:      '#1d1f21'
+    red:        '#cc342b'
+    green:      '#34a853'
+    yellow:     '#fbbc04'
+    blue:       '#4285f4'
+    magenta:    '#a142f4'
+    cyan:       '#24c1e0'
+    white:      '#e8eaed'
+
+  # Bright colors
+  bright:
+    black:      '#969896'
+    red:        '#ea4335'
+    green:      '#34a853'
+    yellow:     '#fbbc04'
+    blue:       '#4285f4'
+    magenta:    '#a142f4'
+    cyan:       '#24c1e0'
+    white:      '#ffffff'

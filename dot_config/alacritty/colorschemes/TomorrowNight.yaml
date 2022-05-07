@@ -1,0 +1,28 @@
+# Colors (Tomorrow Night)
+colors:
+  # Default colors
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+   # Normal colors
+  normal:
+    black:      '#000000'
+    red:        '#cc6666'
+    green:      '#b5bd68'
+    yellow:     '#f0c674'
+    blue:       '#81a2be'
+    magenta:    '#b294bb'
+    cyan:       '#8abeb7'
+    white:      '#fffefe'
+
+  # Bright colors
+  bright:
+    black:      '#000000'
+    red:        '#cc6666'
+    green:      '#b5bd68'
+    yellow:     '#f0c674'
+    blue:       '#81a2be'
+    magenta:    '#b294bb'
+    cyan:       '#8abeb7'
+    white:      '#fffefe'
