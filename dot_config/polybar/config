@@ -62,9 +62,9 @@ alert = #bd2c40
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 95%
 height = 35
-offset-x = 2%
+offset-x = 2.5%
 offset-y = 1%
-radius = 9 
+radius = 0 
 fixed-center = true
 bottom = false 
 ;separator = |
@@ -77,8 +77,8 @@ line-color = ${colors.base08}
 border-size = 0
 border-color = ${colors.transparent} 
 
-padding-left = 3
-padding-right = 3
+padding-left = 2
+padding-right = 2
 
 module-margin-left = 1
 module-margin-right = 2
@@ -311,11 +311,11 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 睊 
-ramp-signal-1 = 直
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = "睊" 
+ramp-signal-1 = "直" 
+ramp-signal-2 = " " 
+ramp-signal-3 = " " 
+ramp-signal-4 = " " 
 ramp-signal-foreground = ${colors.base0D}
 
 [module/eth]
@@ -344,7 +344,7 @@ date-alt = " %d/%m/%Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix =  
+format-prefix = " "
 format-prefix-foreground = ${colors.base0E}
 format-underline = ${colors.base0E} 
 
