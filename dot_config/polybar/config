@@ -294,6 +294,7 @@ label-layout-underline = ${colors.base0B}
 label-indicator-padding = 2
 label-indicator-margin = 1
 label-indicator-background = ${colors.base0A}
+label-indicator-foreground = ${colors.base00}
 label-indicator-underline = ${colors.base0A}
 
 [module/wlan]
