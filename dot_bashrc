@@ -13,6 +13,13 @@ export PF_INFO="ascii title os host kernel uptime pkgs memory palette"
 
 # Aliases
 alias cz='chezmoi'
+alias czs='chezmoi status'
+alias cza='chezmoi add'
+alias czc='chezmoi cd'
+alias gits='git status'
+alias gita='git add'
+alias gitc='git commit'
+alias gitp='git push'
 alias nv='nvim'
 alias nf='neofetch'
 alias pf='pfetch'
