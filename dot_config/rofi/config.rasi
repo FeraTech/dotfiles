@@ -1,8 +1,11 @@
 @import "~/.config/rofi/colors.rasi"
 
 configuration {
+	modi: "drun,run,window,emoji";
 	display-drun: " Buscar";
 	display-run: " Ejecutar";
+	display-window: " Ventanas";
+	display-emoji: "😄 Emoji";
     drun-display-format: "{icon} {name}";
     font: "Cantarell 14";
 }

@@ -53,6 +53,12 @@ template = "vim"
 rewrite = true
 hook = "reloadnvim"
 
+#[[item]]
+#file = "~/.config/rofi/colors.rasi"
+#template = "rofi"
+#subtemplate = "colors"
+#rewrite = true
+
 [[item]]
 file = "~/.config/rofi/colors.rasi"
 template = "rofi"

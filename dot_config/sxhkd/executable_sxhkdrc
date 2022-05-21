@@ -41,6 +41,9 @@ alt + Tab
 alt + @space
 	rofi -show run 
 
+super + e
+	rofi -show emoji
+
 # fallback program launcher
 super + d
 	dmenu_run
