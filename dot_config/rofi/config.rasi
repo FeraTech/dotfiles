@@ -2,12 +2,16 @@
 
 configuration {
 	modi: "drun,run,window,emoji";
-	display-drun: " Buscar";
+	display-drun: " Apps";
 	display-run: " Ejecutar";
 	display-window: " Ventanas";
 	display-emoji: "😄 Emoji";
     drun-display-format: "{icon} {name}";
-    font: "Cantarell 14";
+    font: "Iosevka Nerd Font 14";
+}
+
+entry {
+	placeholder: "";
 }
 
 window {
