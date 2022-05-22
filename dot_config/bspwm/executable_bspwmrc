@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 nitrogen --restore &
 $HOME/.config/polybar/launch.sh &
 nm-applet &
-picom --experimental-backend &
+picom &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
