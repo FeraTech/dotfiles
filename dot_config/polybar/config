@@ -299,7 +299,7 @@ label-indicator-underline = ${colors.base0A}
 
 [module/wlan]
 type = internal/network
-interface = wlan0
+interface = wlp0s20f0u5
 interval = 5
 
 format-connected = <ramp-signal> <label-connected>
