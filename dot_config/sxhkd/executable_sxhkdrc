@@ -3,7 +3,7 @@
 #
 
 # Terminal, wallpaper setter, file manager, theme switchers & messaging app
-super + {Return,n,p,x,alt + x,m}
+super + {Return,n,p,x,alt + x,t}
 	{alacritty,nitrogen,pcmanfm,lxappearance,kvantummanager,telegram-desktop}
 
 # program launchers
