@@ -41,8 +41,13 @@ alt + Tab
 alt + @space
 	rofi -show run 
 
+# rofi emoji
 super + e
 	rofi -show emoji
+
+# rofi power menu
+alt + F4
+	rofi -show power-menu -modi power-menu:~/.local/bin/rofi-power-menu
 
 # fallback program launcher
 super + d
