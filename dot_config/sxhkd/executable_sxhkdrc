@@ -2,56 +2,25 @@
 # wm independent hotkeys
 #
 
-# terminal emulator
-super + Return
-	alacritty	
+# Terminal, wallpaper setter, file manager, theme switchers & messaging app
+super + {Return,n,p,x,alt + x,m}
+	{alacritty,nitrogen,pcmanfm,lxappearance,kvantummanager,telegram-desktop}
 
-# background browser and setter
-super + n
-	nitrogen
+# program launchers
+super + {@space,d}
+	{rofi -show drun -show-icons, dmenu_run}
 
-# file manager
-super + p
-	pcmanfm
+# rofi modi's
+alt + {@space,Tab}
+	rofi {-show run, -show window -show-icons}
 
-# theme switcher
-super + x
-	lxappearance
-
-super + alt + x
-	kvantummanager
+# Rofi plugins
+super + alt + {e,F4}
+	rofi {-show emoji,-show power-menu -modi power-menu:~/.local/bin/rofi-power-menu}
 
 # screenshooter
 Print
 	mate-screenshot
-
-# messaging app
-super + m
-	telegram-desktop
-
-# program launcher
-super + @space
-	rofi -show drun -show-icons	
-
-# window switcher
-alt + Tab
-	rofi -show window -show-icons
-
-# prompt launcher
-alt + @space
-	rofi -show run 
-
-# rofi emoji
-super + e
-	rofi -show emoji
-
-# rofi power menu
-alt + F4
-	rofi -show power-menu -modi power-menu:~/.local/bin/rofi-power-menu
-
-# fallback program launcher
-super + d
-	dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape
