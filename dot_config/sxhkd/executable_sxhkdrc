@@ -3,7 +3,7 @@
 #
 
 # Terminal, wallpaper setter, file manager, theme switchers & messaging app
-super + {Return,n,p,x,alt + x,t}
+super + {Return,n,p,x,alt+x,alt+t}
 	{alacritty,nitrogen,pcmanfm,lxappearance,kvantummanager,telegram-desktop}
 
 # program launchers
@@ -15,8 +15,8 @@ alt + {@space,Tab}
 	rofi {-show run, -show window -show-icons}
 
 # Rofi plugins
-super + alt + {e,F4}
-	rofi {-show emoji,-show power-menu -modi power-menu:~/.local/bin/rofi-power-menu}
+super + alt + {c,e,F4}
+	{clipmenu -p Clipboard: -fn Iosevka,rofi -show emoji,rofi -show power-menu -modi power-menu:~/.local/bin/rofi-power-menu}
 
 # screenshooter
 Print

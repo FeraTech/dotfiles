@@ -12,6 +12,7 @@ call plug#end()
 set title " Muestra el nombre del archivo en la ventana de la terminal
 set number relativenumber " Muestra los números de las líneas
 set mouse=a " Permite la integración del mouse
+set clipboard+=unnamedplus
 
 set hlsearch
 set smartindent 
