@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/fera/.config/alacritty'
+let g:netrw_dirhist_6='/home/fera/.config/bspwm'
 let g:netrw_dirhist_5='/home/f/.local/share/flavours/base16/sources'
 let g:netrw_dirhist_4='/home/f/.config/sxhkd'
 let g:netrw_dirhist_3='/home/fernando/.local/share/flavours/base16/templates/vim'
