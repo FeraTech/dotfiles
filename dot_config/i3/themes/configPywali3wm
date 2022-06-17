@@ -191,17 +191,17 @@ bar {
   #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
   font pango: Cantarell Bold 11
   colors{
-	background $black 
-	statusline $lwhite
-	separator $white
-	#Color class        border  backgr		text
+  background $black 
+  statusline $lwhite
+  separator $white
+  #Color class        border  backgr		text
     focused_workspace   $lblue	$blue		$white 
     active_workspace	$black	$lblack		$white
-	inactive_workspace  $black	$back		$lblack
+  inactive_workspace  $black	$back		$lblack
     urgent_workspace    $black	$red		$white
     binding_mode        $yellow	$lyellow	$black
-	}
-	position top 
+  }
+  position top 
         status_command i3blocks
 }
 

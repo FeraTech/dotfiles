@@ -4,7 +4,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plugins to install
     Plug 'lilydjwg/colorizer'
     "Plug 'vim-airline/vim-airline'
-    "Plug 'vim-airline/vim-airline-themes'	
+    "Plug 'vim-airline/vim-airline-themes'
     "Plug 'itchyny/lightline.vim'
 
 call plug#end()
@@ -15,7 +15,7 @@ set mouse=a " Allow mouse integration
 set clipboard+=unnamedplus " Allow to use the system clipboard
 
 set hlsearch
-set smartindent 
+set smartindent
 set incsearch
 syntax on 
 
@@ -34,5 +34,5 @@ set expandtab  " Insertar espacios en lugar de <Tab>
 set termguicolors  " Activa true colors en la terminal
 colorscheme base " Nombre del tema
 
-highlight LineNr guifg=grey         " Color del número de linea   
+highlight LineNr guifg=grey         " Color del número de linea
 "highlight ColorColumn guibg=grey    " Color de la columna límite

@@ -1,53 +1,53 @@
 @import "~/.config/rofi/colors.rasi"
 
 configuration {
-	modi: "drun,run,window,emoji";
-	display-drun: " Apps";
-	display-run: " Ejecutar";
-	display-window: " Ventanas";
-	display-emoji: "😄 Emoji";
+    modi: "drun,run,window,emoji";
+    display-drun: " Apps";
+    display-run: " Ejecutar";
+    display-window: "  Ventanas";
+    display-emoji: "😄 Emoji";
     drun-display-format: "{icon} {name}";
     font: "Iosevka Nerd Font 14";
 }
 
 entry {
-	placeholder: "";
+    placeholder: "";
 }
 
 window {
-	width: 25%;
-	border: 0;
-	spacing: 0;
-	border: 0;
-	margin: 0;
+    width: 25%;
+    border: 0;
+    spacing: 0;
+    border: 0;
+    margin: 0;
 }
 
 inputbar {
-	border: 0 0 1px 0;
-	children: [prompt,entry];
+    border: 0 0 1px 0;
+    children: [prompt,entry];
 }
 
 prompt {
-	padding: 12px;
-	border: 0 1px 0 0;
+    padding: 12px;
+    border: 0 1px 0 0;
 }
 
 entry {
-	padding: 12px;
+    padding: 12px;
 }
 
 textbox {
-	border: 0 0 1px 0;
-	padding: 8px 12px;
+    border: 0 0 1px 0;
+    padding: 8px 12px;
 }
 
 listview {
-	scrollbar: false;
-	margin: 0 0 -1px 0;
-	lines: 8;
+    scrollbar: false;
+    margin: 0 0 -1px 0;
+    lines: 8;
 }
 
 element {
-	border: 0 0 1px 0;
-	padding: 10;
+    border: 0 0 1px 0;
+    padding: 10;
 }
