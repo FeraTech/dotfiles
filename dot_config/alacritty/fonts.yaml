@@ -3,7 +3,7 @@ font:
   # Normal (roman) font face
   normal:
     family: "JetBrains Mono"
-    style: Medium 
+    style: Regular 
 
   # Bold font face
   bold:
@@ -24,9 +24,9 @@ font:
   size: 14
 
   # Offset
-  #offset:
-  #  x: 0
-  #  y: 0
+  offset:
+    x: 0
+    y: 0
 
   # Glyph offset
   #glyph_offset:
