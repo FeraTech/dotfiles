@@ -9,7 +9,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # PS1
-PS1="\[$(tput bold)\]\[\033[38;5;4m\][\u@\h\[$(tput sgr0)\] \[$(tput bold)\]\W\[$(tput bold)\]\[\033[38;5;4m\]]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+PS1="\[$(tput bold)\]\[\033[38;5;6m\][\u@\h\[$(tput sgr0)\] \[$(tput bold)\]\W\[$(tput bold)\]\[\033[38;5;6m\]]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 # Enviroment variables
 export PF_INFO="ascii title os host kernel uptime pkgs memory palette"
