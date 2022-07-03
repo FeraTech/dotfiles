@@ -5,7 +5,7 @@
 
 ## Import files (Colors, Fonts, Etc)
 import:
-  - ~/.config/alacritty/colorschemes/Dracula.yaml
+  - ~/.config/alacritty/colorschemes/GruvboxDark.yaml
   - ~/.config/alacritty/fonts.yaml
 
 ## Set environment variables
