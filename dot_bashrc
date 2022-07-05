@@ -35,4 +35,4 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias fa='flavours apply'
 alias fl='flavours list'
-alias home='cd ~'
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
