@@ -1,19 +1,19 @@
 /**
- * Base16 Dracula ROFI Color theme
+ * Base16 OneDark ROFI Color theme
  *
  * Authors
- *  Scheme: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+ *  Scheme: Lalit Magant (http://github.com/tilal6991)
  *  Template: Jordi Pakey-Rodriguez (https://github.com/0xdec), Andrea Scarpino (https://github.com/ilpianista)
  */
 
 * {
-    red:                         rgba ( 255, 85, 85, 100 % );
-    blue:                        rgba ( 189, 147, 249, 100 % );
-    lightfg:                     rgba ( 241, 242, 248, 100 % );
-    lightbg:                     rgba ( 58, 60, 78, 100 % );
-    foreground:                  rgba ( 233, 233, 244, 100 % );
-    background:                  rgba ( 40, 41, 54, 100 % );
-    background-color:            rgba ( 40, 41, 54, 0 % );
+    red:                         rgba ( 224, 108, 117, 100 % );
+    blue:                        rgba ( 97, 175, 239, 100 % );
+    lightfg:                     rgba ( 182, 189, 202, 100 % );
+    lightbg:                     rgba ( 53, 59, 69, 100 % );
+    foreground:                  rgba ( 171, 178, 191, 100 % );
+    background:                  rgba ( 40, 44, 52, 100 % );
+    background-color:            rgba ( 40, 44, 52, 0 % );
     separatorcolor:              @background;
     border-color:                @background;
     selected-normal-foreground:  @foreground;
