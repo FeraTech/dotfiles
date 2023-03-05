@@ -13,6 +13,7 @@ PS1="\[$(tput bold)\]\[\033[38;5;6m\][\u@\h\[$(tput sgr0)\] \[$(tput bold)\]\W\[
 
 # Enviroment variables
 export PF_INFO="ascii title os host kernel uptime pkgs memory palette"
+export EDITOR='nvim'
 
 # Aliases
 alias ls='ls --color=auto'
@@ -36,3 +37,5 @@ alias rm='rm -i'
 alias fa='flavours apply'
 alias fl='flavours list'
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias vim='nvim'
+alias vi='nvim'

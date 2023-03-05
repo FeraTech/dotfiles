@@ -19,6 +19,21 @@ set $term alacritty
 # Note: pass the final command to swaymsg so that the resulting window can be opened on the original workspace that the command was run on.
 set $menu bemenu-run 
 
+### Autostart
+exec nm-applet
+
+#
+# GTK theming
+#
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Arc Dark'
+    gsettings set $gnome-schema icon-theme 'Papirus'
+    gsettings set $gnome-schema cursor-theme 'Breeze'
+    gsettings set $gnome-schema font-name 'Roboto'
+}
+
 ### Output configuration
 #
 # Set wallpaper
@@ -39,7 +54,7 @@ output * bg ~/Pictures/wallpapers/wallhaven-kw37y7.png fill
 
 ### Input configuration
 
-    input * {
+    input "type:keyboard" {
         xkb_layout "latam"
     }
 
@@ -183,6 +198,9 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+
+
 
 #
 # Status Bar:
