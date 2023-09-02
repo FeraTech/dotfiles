@@ -16,10 +16,21 @@ set $term alacritty
 # Set application launcher
 set $menu wofi --show run
 
+# GTK theme
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Arc-Dark'
+    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+    gsettings set $gnome-schema cursor-theme 'Adwaita'
+    gsettings set $gnome-schema font-name 'Cantarell 11'
+}
+
 ### Output configuration
 #
 # Set wallpaper
-output * bg ~/Pictures/wallpapers/marek-piwnicki-htqzuJF0tps-unsplash.jpg fill
+# output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+exec ~/.azotebg
 #
 # Example configuration:
 #
@@ -41,6 +52,13 @@ exec swayidle -w \
 #
 input "type:keyboard" {
     xkb_layout "latam"
+}
+
+input "2:14:SysPS/2_Synaptics_TouchPad" {
+    dwt enabled
+    tap enabled
+    natural_scroll enabled
+    middle_emulation enabled
 }
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
