@@ -1,0 +1,20 @@
+set $bg #282828
+set $fg #ebdbb2
+
+set $black #282828
+set $red #cc241d
+set $green #98971a
+set $yellow #d79921
+set $blue #458588
+set $magenta #b16286
+set $cyan #689d6a
+set $white #a89984
+
+set $blackb #928374
+set $redb #fb4934
+set $greenb #b8bb26
+set $yellowb #fabd2f
+set $blueb #83a598
+set $magentab #d3869b
+set $cyanb #8ec07c
+set $whiteb #ebdbb2
