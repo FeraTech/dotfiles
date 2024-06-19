@@ -1,0 +1,42 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+## General
+### Import themes
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+## Window
+[window]
+padding = { x = 15, y = 15 }
+opacity = 0.9 
+
+## Font
+[font]
+size = 13.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+## Cursor
+[cursor]
+style = { blinking = "On" }
+
+## Keyboard
+[keyboard]
+bindings = [
+    { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
